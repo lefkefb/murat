@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Hangi Kart",
+    "slug": "hangi-kart",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.muratkarabulut.hangikart"
+    },
+    "plugins": [
+      [
+        "@howincodes/expo-dynamic-app-icon",
+        {
+          "iconA": {
+            "android": {
+              "foregroundImage": "./assets/iconA.png",
+              "backgroundColor": "#FFFFFF"
+            }
+          },
+          "iconB": {
+            "android": {
+              "foregroundImage": "./assets/iconB.png",
+              "backgroundColor": "#FFFFFF"
+            }
+          },
+          "iconC": {
+            "android": {
+              "foregroundImage": "./assets/iconC.png",
+              "backgroundColor": "#FFFFFF"
+            }
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e11d8309-72f7-456c-b93f-8a60c22372c7"
+      }
+    }
+  }
+}
